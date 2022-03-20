@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/micrajs/community/issues?q=is:issue+is:open+label:%22Project:+developer-tools%22+label:%22Type:+fix%22"
   },
-  "homepage": "https://github.com/micrajs/typescript-config#readme"
+  "homepage": "https://github.com/micrajs/typescript-config#readme",
+  "scripts": {
+    "version:prerelease": "npm version prerelease --preid=next --allow-same-version && git push --follow-tags"
+  }
 }
